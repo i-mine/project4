@@ -1,0 +1,232 @@
+.container{
+	display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    position: relative;
+    width: 1180px;
+}
+.sdk-download-container{
+	background-color: #FAFAFA;
+	padding: 0;
+}
+.sdk-download-container {
+    border-left: 1px solid #f6f6f6;
+    font-size: 0;
+}
+.sdk-aside,.sdk-main{
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+.sdk-aside{
+	width: 20%;
+}
+.sdk-main{
+	background-color: #fff;
+	box-sizing: border-box;
+	border-left: 1px solid #F6F6F6;
+	padding-left: 40px;
+	width: 80%;
+}
+.sdk-aside-header{
+	background-color: #fff;
+    border-bottom: 1px solid #efefef;
+    color: #666;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding: 2px 35px;
+}
+a:hover{
+	color: #0073EB;
+}
+.sdk-nav-item{
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 30px;
+}
+.sdk-nav-item:hover .sdk-nav-icon{
+	background-image:url(../img/sdk/icon-sprite-active.png);
+}
+.sdk-nav-icon{
+	background: rgba(0,0,0,0) url(../img/sdk/icon-sprite.png) no-repeat scroll 0 0 / 105px 21px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sdk-nav-icon-bs{
+	background-position: -2.5px -2.5px;
+	height: 16px;
+	width: 16px;
+}
+.sdk-nav-icon-ocr{
+	background-position: -23.5px -2.5px;
+	height: 16px;
+	width: 16px;
+}
+.sdk-nav-icon-bfr{
+	background-position: -43.5px -2.5px;
+	height: 16px;
+	width: 16px;
+}
+.sdk-nav-icon-nlp{
+	background-position: -63.5px -2.5px;
+	height: 16px;
+	width: 16px;
+}
+.sdk-nav-icon-anti{
+	background-position: -83.5px -2.5px;
+	height: 16px;
+	width: 16px;
+}
+.sdk-nav-text{
+	vertical-align: middle;
+}
+.sdk-category-name{
+	display: inline-block;
+	font-size: 16px;
+    font-weight: 700;
+    padding: 20px 0 20px 10px;
+}
+
+.sdk-colection{
+	margin: 0 -5px;
+}
+
+.sdk-item-container{
+	box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    width: 33.333%;
+}
+.sdk-item{
+	background-color: #fcfcfc;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    height: 165px;
+    padding: 25px 0 10px;
+    position: relative;
+}
+.sdk-language-sprite{
+	background: rgba(0, 0, 0, 0) url(../img/sdk/language.png) no-repeat scroll 0 0 / 133px 23px;
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transform-origin: center center 0;
+}
+.sdk-android{
+	background-position: -2.5px -2.5px;
+	width: 18px;
+	height: 18px;
+}
+.sdk-category-icon {
+    background: rgba(0, 0, 0, 0) url(../img/sdk/category-icon.png) no-repeat scroll 0 0 / 440px 75px;
+    display: block;
+    left: 15px;
+    position: absolute;
+    top: 25px;
+}
+.sdk-bs {
+    background-position: -68.5px -2.5px;
+    height: 70px;
+    width: 70px;
+}
+
+.sdk-download-button {
+    background-color: #0073eb;
+    border-radius: 2px;
+    bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    left: 15px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 25%;
+}
+.sdk-info{
+	width: 65%;
+}
+.sdk-info, .sdk-item-aside {
+    display: inline-block;
+}
+.sdk-item-name {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 0;
+    color: #14191e;
+}
+.sdk-description {
+    font-size: 12px;
+    padding: 3px 0;
+    color: #666;
+}
+.sdk-bottom-info {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+}
+.sdk-item-aside {
+    width: 35%;
+}
+.sdk-update-date, .sdk-version {
+    font-size: 12px;
+    color: #666;
+}
+.sdk-apple {
+    width: 18px;
+    height: 18px;
+    background-position: -56px -2.5px;
+}
+.sdk-bs-package {
+    background-position: -2.5px -2.5px;
+    width: 60px;
+    height: 59px;
+}
+.sdk-ocr {
+    background-position: -142.5px -2.5px;
+    width: 70px;
+    height: 70px;
+}
+.sdk-java {
+    width: 26px;
+    height: 18px;
+    background-position: -25.5px -2.5px;
+}
+.sdk-php {
+    width: 24px;
+    height: 18px;
+    background-position: -80px -2.5px;
+}
+.sdk-python {
+    width: 17px;
+    height: 18px;
+    background-position: -112px -2.5px;
+}
+.sdk-bfr {
+    background-position: -217.5px -2.5px;
+    width: 70px;
+    height: 70px;
+}
+.sdk-nlp {
+    background-position: -292.5px -2.5px;
+    width: 70px;
+    height: 70px;
+}
+.sdk-anti {
+    background-position: -367.5px -2.5px;
+    width: 70px;
+    height: 70px;
+}
+.sdk-download-button:hover {
+    background-color: #1a81ed;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.4);
+}
+.sdk-item-container:hover{
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.4);
+}

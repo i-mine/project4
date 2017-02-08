@@ -1,0 +1,39 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: "Microsoft YaHei Light", "Microsoft YaHei", "Arial Narrow", Arial, "sans-serif" !important;
+  margin: 0;
+  font-weight: 500;
+}
+ul,ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+	vertical-align: middle;
+	color: inherit;
+}
+body {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+div,span,p{
+	padding: 0;
+	margin: 0;
+}
+.clearfix{zoom:1;}
+.clearfix:after{
+	display:block;
+	content:'clear';
+	clear:both;
+  line-height:0;
+ 	visibility:hidden;	
+}
+html{
+	overflow-x:hidden;
+}
