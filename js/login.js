@@ -1,0 +1,14 @@
+window.onload=function(){
+	$(".baidu").click(function(){
+		$('.log1').toggle();
+		$('.log2').toggle();
+		$('.baidu').toggleClass("active");
+		$('.tuiguang').toggleClass("active");
+	});
+	$(".tuiguang").click(function(){
+		$('.log1').toggle();
+		$('.log2').toggle();
+		$('.baidu').toggleClass("active");
+		$('.tuiguang').toggleClass("active");
+	});
+}
